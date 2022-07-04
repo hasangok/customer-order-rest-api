@@ -1,0 +1,1402 @@
+{
+	"info": {
+		"_postman_id": "6eaca438-270c-453b-a600-5b3293283fbe",
+		"name": "AktifTech.CustomerOrderRestApi.API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Products",
+			"item": [
+				{
+					"name": "{id}",
+					"item": [
+						{
+							"name": "/Products/:id",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "text/plain"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/Products/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"Products",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1",
+											"description": "(Required) "
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/Products/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"Products",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "71699184",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"success\": true,\n  \"code\": -56565635,\n  \"message\": \"dolor dolor ullamco consectetur\",\n  \"data\": {\n    \"id\": -63531979,\n    \"barcode\": \"voluptate mollit ex sit\",\n    \"description\": \"anim esse\",\n    \"quantity\": 36434337,\n    \"price\": 23697439.79541771,\n    \"created\": \"1964-08-06T05:45:53.448Z\",\n    \"modified\": \"1971-06-07T17:41:48.203Z\"\n  },\n  \"errors\": [\n    {\n      \"message\": \"consectet\",\n      \"internalMessage\": \"ut adipisicing\"\n    },\n    {\n      \"message\": \"dolore Lorem nostrud dolor\",\n      \"internalMessage\": \"qui\"\n    }\n  ]\n}"
+								}
+							]
+						},
+						{
+							"name": "/Products/:id",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "text/plain"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"barcode\": \"23455\",\n  \"description\": \"Çubuk Kraker\",\n  \"quantity\": 100,\n  \"price\": 1.75\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/Products/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"Products",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1",
+											"description": "(Required) "
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"barcode\": \"sed dolor ea veniam\",\n  \"description\": \"mollit Ut irure aute eiusmod\",\n  \"quantity\": 64646548,\n  \"price\": -6651719.1035925\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/Products/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"Products",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "71699184",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"success\": true,\n  \"code\": -56565635,\n  \"message\": \"dolor dolor ullamco consectetur\",\n  \"data\": {\n    \"id\": -63531979,\n    \"barcode\": \"voluptate mollit ex sit\",\n    \"description\": \"anim esse\",\n    \"quantity\": 36434337,\n    \"price\": 23697439.79541771,\n    \"created\": \"1964-08-06T05:45:53.448Z\",\n    \"modified\": \"1971-06-07T17:41:48.203Z\"\n  },\n  \"errors\": [\n    {\n      \"message\": \"consectet\",\n      \"internalMessage\": \"ut adipisicing\"\n    },\n    {\n      \"message\": \"dolore Lorem nostrud dolor\",\n      \"internalMessage\": \"qui\"\n    }\n  ]\n}"
+								}
+							]
+						},
+						{
+							"name": "/Products/:id",
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "text/plain"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/Products/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"Products",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1",
+											"description": "(Required) "
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/Products/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"Products",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "71699184",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"success\": true,\n  \"code\": -56565635,\n  \"message\": \"dolor dolor ullamco consectetur\",\n  \"data\": {\n    \"id\": -63531979,\n    \"barcode\": \"voluptate mollit ex sit\",\n    \"description\": \"anim esse\",\n    \"quantity\": 36434337,\n    \"price\": 23697439.79541771,\n    \"created\": \"1964-08-06T05:45:53.448Z\",\n    \"modified\": \"1971-06-07T17:41:48.203Z\"\n  },\n  \"errors\": [\n    {\n      \"message\": \"consectet\",\n      \"internalMessage\": \"ut adipisicing\"\n    },\n    {\n      \"message\": \"dolore Lorem nostrud dolor\",\n      \"internalMessage\": \"qui\"\n    }\n  ]\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "/Products",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "text/plain"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/Products",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"Products"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/Products",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"Products"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"success\": true,\n  \"code\": 21839909,\n  \"message\": \"occaecat Excepteur eu\",\n  \"data\": [\n    {\n      \"id\": 92526421,\n      \"barcode\": \"est\",\n      \"description\": \"esse Duis culpa\",\n      \"quantity\": 11406696,\n      \"price\": 91819416.1790809,\n      \"created\": \"1969-05-11T01:42:58.974Z\",\n      \"modified\": \"1965-06-16T19:26:14.649Z\"\n    },\n    {\n      \"id\": 34971574,\n      \"barcode\": \"anim elit deserunt consectetur\",\n      \"description\": \"ad irure\",\n      \"quantity\": -51454726,\n      \"price\": -40780801.45281717,\n      \"created\": \"1995-08-01T08:46:25.399Z\",\n      \"modified\": \"1993-08-02T10:54:00.995Z\"\n    }\n  ],\n  \"errors\": [\n    {\n      \"message\": \"enim ad proident\",\n      \"internalMessage\": \"amet esse commodo et\"\n    },\n    {\n      \"message\": \"ad\",\n      \"internalMessage\": \"et fugiat\"\n    }\n  ]\n}"
+						}
+					]
+				},
+				{
+					"name": "/Products",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "text/plain"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"barcode\": \"12345\",\n  \"description\": \"Çikolata\",\n  \"quantity\": 100,\n  \"price\": 12.5\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/Products",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"Products"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Success",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"barcode\": \"sed dolor ea veniam\",\n  \"description\": \"mollit Ut irure aute eiusmod\",\n  \"quantity\": 64646548,\n  \"price\": -6651719.1035925\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/Products",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"Products"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"success\": true,\n  \"code\": 7506167,\n  \"message\": \"do aliquip nisi\",\n  \"data\": {\n    \"id\": 90844412,\n    \"barcode\": \"minim esse culpa\",\n    \"description\": \"in anim\",\n    \"quantity\": 20381482,\n    \"price\": -65526889.37467486,\n    \"created\": \"1943-03-14T06:22:23.031Z\",\n    \"modified\": \"1947-08-18T22:45:06.927Z\"\n  },\n  \"errors\": [\n    {\n      \"message\": \"id quis\",\n      \"internalMessage\": \"voluptate ipsum\"\n    },\n    {\n      \"message\": \"est aliquip ullamco\",\n      \"internalMessage\": \"ullamco\"\n    }\n  ]\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Customers",
+			"item": [
+				{
+					"name": "{id}",
+					"item": [
+						{
+							"name": "Addresses",
+							"item": [
+								{
+									"name": "/Customers/:id/Addresses",
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Accept",
+												"value": "text/plain"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"name\": \"Ev adresi\",\n  \"address\": \"Serik / Antalya\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/Customers/:id/Addresses",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"Customers",
+												":id",
+												"Addresses"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "2",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Success",
+											"originalRequest": {
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n  \"name\": \"laboris adipisicing magna\",\n  \"address\": \"fugiat eiusmod Duis reprehenderit\"\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrl}}/Customers/:id/Addresses",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"Customers",
+														":id",
+														"Addresses"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "71699184",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json"
+												}
+											],
+											"cookie": [],
+											"body": "{\n  \"success\": true,\n  \"code\": -93896171,\n  \"message\": \"Duis aute\",\n  \"data\": {\n    \"id\": 42250761,\n    \"name\": \"qui in Ut\",\n    \"addresses\": [\n      {\n        \"id\": 9861782,\n        \"name\": \"cillum ut incididunt\",\n        \"address\": \"proident\"\n      },\n      {\n        \"id\": -83735952,\n        \"name\": \"sint voluptate ea in\",\n        \"address\": \"elit\"\n      }\n    ],\n    \"created\": \"2008-10-31T08:44:53.377Z\"\n  },\n  \"errors\": [\n    {\n      \"message\": \"labore non officia\",\n      \"internalMessage\": \"mollit laborum proident esse\"\n    },\n    {\n      \"message\": \"ea sit consequat\",\n      \"internalMessage\": \"Duis ad sunt labore aliquip\"\n    }\n  ]\n}"
+										}
+									]
+								},
+								{
+									"name": "/Customers/:id/Addresses",
+									"request": {
+										"method": "DELETE",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Accept",
+												"value": "text/plain"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"addressId\": 3\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/Customers/:id/Addresses",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"Customers",
+												":id",
+												"Addresses"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "2",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Success",
+											"originalRequest": {
+												"method": "DELETE",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n  \"addressId\": -44641207\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrl}}/Customers/:id/Addresses",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"Customers",
+														":id",
+														"Addresses"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "71699184",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json"
+												}
+											],
+											"cookie": [],
+											"body": "{\n  \"success\": true,\n  \"code\": -93896171,\n  \"message\": \"Duis aute\",\n  \"data\": {\n    \"id\": 42250761,\n    \"name\": \"qui in Ut\",\n    \"addresses\": [\n      {\n        \"id\": 9861782,\n        \"name\": \"cillum ut incididunt\",\n        \"address\": \"proident\"\n      },\n      {\n        \"id\": -83735952,\n        \"name\": \"sint voluptate ea in\",\n        \"address\": \"elit\"\n      }\n    ],\n    \"created\": \"2008-10-31T08:44:53.377Z\"\n  },\n  \"errors\": [\n    {\n      \"message\": \"labore non officia\",\n      \"internalMessage\": \"mollit laborum proident esse\"\n    },\n    {\n      \"message\": \"ea sit consequat\",\n      \"internalMessage\": \"Duis ad sunt labore aliquip\"\n    }\n  ]\n}"
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Orders",
+							"item": [
+								{
+									"name": "{order Id}",
+									"item": [
+										{
+											"name": "Products",
+											"item": [
+												{
+													"name": "/Customers/:id/Orders/:orderId/Products",
+													"request": {
+														"method": "PUT",
+														"header": [
+															{
+																"key": "Content-Type",
+																"value": "application/json"
+															},
+															{
+																"key": "Accept",
+																"value": "text/plain"
+															}
+														],
+														"body": {
+															"mode": "raw",
+															"raw": "{\n  \"productId\": 1,\n  \"quantity\": 5\n}",
+															"options": {
+																"raw": {
+																	"language": "json"
+																}
+															}
+														},
+														"url": {
+															"raw": "{{baseUrl}}/Customers/:id/Orders/:orderId/Products",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"Customers",
+																":id",
+																"Orders",
+																":orderId",
+																"Products"
+															],
+															"variable": [
+																{
+																	"key": "id",
+																	"value": "71699184",
+																	"description": "(Required) "
+																},
+																{
+																	"key": "orderId",
+																	"value": "71699184",
+																	"description": "(Required) "
+																}
+															]
+														}
+													},
+													"response": [
+														{
+															"name": "Success",
+															"originalRequest": {
+																"method": "PUT",
+																"header": [],
+																"body": {
+																	"mode": "raw",
+																	"raw": "{\n  \"productId\": -68796406,\n  \"quantity\": -58210320\n}",
+																	"options": {
+																		"raw": {
+																			"language": "json"
+																		}
+																	}
+																},
+																"url": {
+																	"raw": "{{baseUrl}}/Customers/:id/Orders/:orderId/Products",
+																	"host": [
+																		"{{baseUrl}}"
+																	],
+																	"path": [
+																		"Customers",
+																		":id",
+																		"Orders",
+																		":orderId",
+																		"Products"
+																	],
+																	"variable": [
+																		{
+																			"key": "id",
+																			"value": "71699184",
+																			"description": "(Required) "
+																		},
+																		{
+																			"key": "orderId",
+																			"value": "71699184",
+																			"description": "(Required) "
+																		}
+																	]
+																}
+															},
+															"status": "OK",
+															"code": 200,
+															"_postman_previewlanguage": "json",
+															"header": [
+																{
+																	"key": "Content-Type",
+																	"value": "application/json"
+																}
+															],
+															"cookie": [],
+															"body": "{\n  \"success\": true,\n  \"code\": -93896171,\n  \"message\": \"Duis aute\",\n  \"data\": {\n    \"id\": 42250761,\n    \"name\": \"qui in Ut\",\n    \"addresses\": [\n      {\n        \"id\": 9861782,\n        \"name\": \"cillum ut incididunt\",\n        \"address\": \"proident\"\n      },\n      {\n        \"id\": -83735952,\n        \"name\": \"sint voluptate ea in\",\n        \"address\": \"elit\"\n      }\n    ],\n    \"created\": \"2008-10-31T08:44:53.377Z\"\n  },\n  \"errors\": [\n    {\n      \"message\": \"labore non officia\",\n      \"internalMessage\": \"mollit laborum proident esse\"\n    },\n    {\n      \"message\": \"ea sit consequat\",\n      \"internalMessage\": \"Duis ad sunt labore aliquip\"\n    }\n  ]\n}"
+														}
+													]
+												},
+												{
+													"name": "/Customers/:id/Orders/:orderId/Products/:productId",
+													"request": {
+														"method": "DELETE",
+														"header": [
+															{
+																"key": "Accept",
+																"value": "text/plain"
+															}
+														],
+														"url": {
+															"raw": "{{baseUrl}}/Customers/:id/Orders/:orderId/Products/:productId",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"Customers",
+																":id",
+																"Orders",
+																":orderId",
+																"Products",
+																":productId"
+															],
+															"variable": [
+																{
+																	"key": "id",
+																	"value": "1",
+																	"description": "(Required) "
+																},
+																{
+																	"key": "orderId",
+																	"value": "1",
+																	"description": "(Required) "
+																},
+																{
+																	"key": "productId",
+																	"value": "3",
+																	"description": "(Required) "
+																}
+															]
+														}
+													},
+													"response": [
+														{
+															"name": "Success",
+															"originalRequest": {
+																"method": "DELETE",
+																"header": [],
+																"url": {
+																	"raw": "{{baseUrl}}/Customers/:id/Orders/:orderId/Products/:productId",
+																	"host": [
+																		"{{baseUrl}}"
+																	],
+																	"path": [
+																		"Customers",
+																		":id",
+																		"Orders",
+																		":orderId",
+																		"Products",
+																		":productId"
+																	],
+																	"variable": [
+																		{
+																			"key": "id",
+																			"value": "71699184",
+																			"description": "(Required) "
+																		},
+																		{
+																			"key": "orderId",
+																			"value": "71699184",
+																			"description": "(Required) "
+																		},
+																		{
+																			"key": "productId",
+																			"value": "71699184",
+																			"description": "(Required) "
+																		}
+																	]
+																}
+															},
+															"status": "OK",
+															"code": 200,
+															"_postman_previewlanguage": "json",
+															"header": [
+																{
+																	"key": "Content-Type",
+																	"value": "application/json"
+																}
+															],
+															"cookie": [],
+															"body": "{\n  \"success\": true,\n  \"code\": -93896171,\n  \"message\": \"Duis aute\",\n  \"data\": {\n    \"id\": 42250761,\n    \"name\": \"qui in Ut\",\n    \"addresses\": [\n      {\n        \"id\": 9861782,\n        \"name\": \"cillum ut incididunt\",\n        \"address\": \"proident\"\n      },\n      {\n        \"id\": -83735952,\n        \"name\": \"sint voluptate ea in\",\n        \"address\": \"elit\"\n      }\n    ],\n    \"created\": \"2008-10-31T08:44:53.377Z\"\n  },\n  \"errors\": [\n    {\n      \"message\": \"labore non officia\",\n      \"internalMessage\": \"mollit laborum proident esse\"\n    },\n    {\n      \"message\": \"ea sit consequat\",\n      \"internalMessage\": \"Duis ad sunt labore aliquip\"\n    }\n  ]\n}"
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "/Customers/:id/Orders/:orderId",
+											"request": {
+												"method": "DELETE",
+												"header": [
+													{
+														"key": "Accept",
+														"value": "text/plain"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/Customers/:id/Orders/:orderId",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"Customers",
+														":id",
+														"Orders",
+														":orderId"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "1",
+															"description": "(Required) "
+														},
+														{
+															"key": "orderId",
+															"value": "1",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"response": [
+												{
+													"name": "Success",
+													"originalRequest": {
+														"method": "DELETE",
+														"header": [],
+														"url": {
+															"raw": "{{baseUrl}}/Customers/:id/Orders/:orderId",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"Customers",
+																":id",
+																"Orders",
+																":orderId"
+															],
+															"variable": [
+																{
+																	"key": "id",
+																	"value": "71699184",
+																	"description": "(Required) "
+																},
+																{
+																	"key": "orderId",
+																	"value": "71699184",
+																	"description": "(Required) "
+																}
+															]
+														}
+													},
+													"status": "OK",
+													"code": 200,
+													"_postman_previewlanguage": "json",
+													"header": [
+														{
+															"key": "Content-Type",
+															"value": "application/json"
+														}
+													],
+													"cookie": [],
+													"body": "{\n  \"success\": true,\n  \"code\": -93896171,\n  \"message\": \"Duis aute\",\n  \"data\": {\n    \"id\": 42250761,\n    \"name\": \"qui in Ut\",\n    \"addresses\": [\n      {\n        \"id\": 9861782,\n        \"name\": \"cillum ut incididunt\",\n        \"address\": \"proident\"\n      },\n      {\n        \"id\": -83735952,\n        \"name\": \"sint voluptate ea in\",\n        \"address\": \"elit\"\n      }\n    ],\n    \"created\": \"2008-10-31T08:44:53.377Z\"\n  },\n  \"errors\": [\n    {\n      \"message\": \"labore non officia\",\n      \"internalMessage\": \"mollit laborum proident esse\"\n    },\n    {\n      \"message\": \"ea sit consequat\",\n      \"internalMessage\": \"Duis ad sunt labore aliquip\"\n    }\n  ]\n}"
+												}
+											]
+										},
+										{
+											"name": "/Customers/:id/Orders/:orderId/Address/:addressId",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "Accept",
+														"value": "text/plain"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/Customers/:id/Orders/:orderId/Address/:addressId",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"Customers",
+														":id",
+														"Orders",
+														":orderId",
+														"Address",
+														":addressId"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "1",
+															"description": "(Required) "
+														},
+														{
+															"key": "orderId",
+															"value": "1",
+															"description": "(Required) "
+														},
+														{
+															"key": "addressId",
+															"value": "2",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"response": [
+												{
+													"name": "Success",
+													"originalRequest": {
+														"method": "PUT",
+														"header": [],
+														"url": {
+															"raw": "{{baseUrl}}/Customers/:id/Orders/:orderId/Address/:addressId",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"Customers",
+																":id",
+																"Orders",
+																":orderId",
+																"Address",
+																":addressId"
+															],
+															"variable": [
+																{
+																	"key": "id",
+																	"value": "71699184",
+																	"description": "(Required) "
+																},
+																{
+																	"key": "orderId",
+																	"value": "71699184",
+																	"description": "(Required) "
+																},
+																{
+																	"key": "addressId",
+																	"value": "71699184",
+																	"description": "(Required) "
+																}
+															]
+														}
+													},
+													"status": "OK",
+													"code": 200,
+													"_postman_previewlanguage": "json",
+													"header": [
+														{
+															"key": "Content-Type",
+															"value": "application/json"
+														}
+													],
+													"cookie": [],
+													"body": "{\n  \"success\": true,\n  \"code\": -93896171,\n  \"message\": \"Duis aute\",\n  \"data\": {\n    \"id\": 42250761,\n    \"name\": \"qui in Ut\",\n    \"addresses\": [\n      {\n        \"id\": 9861782,\n        \"name\": \"cillum ut incididunt\",\n        \"address\": \"proident\"\n      },\n      {\n        \"id\": -83735952,\n        \"name\": \"sint voluptate ea in\",\n        \"address\": \"elit\"\n      }\n    ],\n    \"created\": \"2008-10-31T08:44:53.377Z\"\n  },\n  \"errors\": [\n    {\n      \"message\": \"labore non officia\",\n      \"internalMessage\": \"mollit laborum proident esse\"\n    },\n    {\n      \"message\": \"ea sit consequat\",\n      \"internalMessage\": \"Duis ad sunt labore aliquip\"\n    }\n  ]\n}"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "/Customers/:id/Orders",
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Accept",
+												"value": "text/plain"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"addressId\": 2,\n  \"products\": [\n    {\n      \"productId\": 2,\n      \"quantity\": 8\n    }\n  ]\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/Customers/:id/Orders",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"Customers",
+												":id",
+												"Orders"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "1",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Success",
+											"originalRequest": {
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n  \"addressId\": 3936905,\n  \"products\": [\n    {\n      \"productId\": 66262236,\n      \"quantity\": -33241228\n    },\n    {\n      \"productId\": 72815366,\n      \"quantity\": -489483\n    }\n  ]\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrl}}/Customers/:id/Orders",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"Customers",
+														":id",
+														"Orders"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "71699184",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json"
+												}
+											],
+											"cookie": [],
+											"body": "{\n  \"success\": false,\n  \"code\": 95335597,\n  \"message\": \"moll\",\n  \"data\": {\n    \"id\": 37431455,\n    \"customerName\": \"ex magna incididunt esse\",\n    \"addressName\": \"Excepteur\",\n    \"address\": \"labore ad\",\n    \"products\": [\n      {\n        \"productId\": -45072027,\n        \"productName\": \"dolor\",\n        \"quantity\": -79997518\n      },\n      {\n        \"productId\": -2428776,\n        \"productName\": \"veniam cupidat\",\n        \"quantity\": 8140818\n      }\n    ],\n    \"totalPrice\": 91623930.99777755\n  },\n  \"errors\": [\n    {\n      \"message\": \"cupidatat incididunt deserunt\",\n      \"internalMessage\": \"do minim Lorem\"\n    },\n    {\n      \"message\": \"enim id Excepteur\",\n      \"internalMessage\": \"aliqua eiusmod sit reprehenderit\"\n    }\n  ]\n}"
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "/Customers/:id",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "text/plain"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/Customers/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"Customers",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1",
+											"description": "(Required) "
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/Customers/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"Customers",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "71699184",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"success\": true,\n  \"code\": -93896171,\n  \"message\": \"Duis aute\",\n  \"data\": {\n    \"id\": 42250761,\n    \"name\": \"qui in Ut\",\n    \"addresses\": [\n      {\n        \"id\": 9861782,\n        \"name\": \"cillum ut incididunt\",\n        \"address\": \"proident\"\n      },\n      {\n        \"id\": -83735952,\n        \"name\": \"sint voluptate ea in\",\n        \"address\": \"elit\"\n      }\n    ],\n    \"created\": \"2008-10-31T08:44:53.377Z\"\n  },\n  \"errors\": [\n    {\n      \"message\": \"labore non officia\",\n      \"internalMessage\": \"mollit laborum proident esse\"\n    },\n    {\n      \"message\": \"ea sit consequat\",\n      \"internalMessage\": \"Duis ad sunt labore aliquip\"\n    }\n  ]\n}"
+								}
+							]
+						},
+						{
+							"name": "/Customers/:id",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "text/plain"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"name\": \"Hasan G.\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/Customers/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"Customers",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1",
+											"description": "(Required) "
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"name\": \"culpa consequat\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/Customers/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"Customers",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "71699184",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"success\": true,\n  \"code\": -93896171,\n  \"message\": \"Duis aute\",\n  \"data\": {\n    \"id\": 42250761,\n    \"name\": \"qui in Ut\",\n    \"addresses\": [\n      {\n        \"id\": 9861782,\n        \"name\": \"cillum ut incididunt\",\n        \"address\": \"proident\"\n      },\n      {\n        \"id\": -83735952,\n        \"name\": \"sint voluptate ea in\",\n        \"address\": \"elit\"\n      }\n    ],\n    \"created\": \"2008-10-31T08:44:53.377Z\"\n  },\n  \"errors\": [\n    {\n      \"message\": \"labore non officia\",\n      \"internalMessage\": \"mollit laborum proident esse\"\n    },\n    {\n      \"message\": \"ea sit consequat\",\n      \"internalMessage\": \"Duis ad sunt labore aliquip\"\n    }\n  ]\n}"
+								}
+							]
+						},
+						{
+							"name": "/Customers/:id",
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "text/plain"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/Customers/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"Customers",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "3",
+											"description": "(Required) "
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/Customers/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"Customers",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "71699184",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"success\": true,\n  \"code\": -93896171,\n  \"message\": \"Duis aute\",\n  \"data\": {\n    \"id\": 42250761,\n    \"name\": \"qui in Ut\",\n    \"addresses\": [\n      {\n        \"id\": 9861782,\n        \"name\": \"cillum ut incididunt\",\n        \"address\": \"proident\"\n      },\n      {\n        \"id\": -83735952,\n        \"name\": \"sint voluptate ea in\",\n        \"address\": \"elit\"\n      }\n    ],\n    \"created\": \"2008-10-31T08:44:53.377Z\"\n  },\n  \"errors\": [\n    {\n      \"message\": \"labore non officia\",\n      \"internalMessage\": \"mollit laborum proident esse\"\n    },\n    {\n      \"message\": \"ea sit consequat\",\n      \"internalMessage\": \"Duis ad sunt labore aliquip\"\n    }\n  ]\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "/Customers",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "text/plain"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/Customers",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"Customers"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/Customers",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"Customers"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"success\": false,\n  \"code\": -11407197,\n  \"message\": \"enim fugiat ea\",\n  \"data\": [\n    {\n      \"id\": -18085466,\n      \"name\": \"ut ea eu\",\n      \"addresses\": [\n        {\n          \"id\": -52445462,\n          \"name\": \"sit veniam\",\n          \"address\": \"consectetur enim ipsum tempor\"\n        },\n        {\n          \"id\": -89342667,\n          \"name\": \"pariatur minim reprehenderit tempor velit\",\n          \"address\": \"non in\"\n        }\n      ],\n      \"created\": \"1995-02-04T23:09:31.599Z\"\n    },\n    {\n      \"id\": 40830004,\n      \"name\": \"mollit l\",\n      \"addresses\": [\n        {\n          \"id\": 60393529,\n          \"name\": \"est ei\",\n          \"address\": \"sunt do dolore\"\n        },\n        {\n          \"id\": 21914309,\n          \"name\": \"commodo in eiusmod enim voluptate\",\n          \"address\": \"reprehenderit laboris ea\"\n        }\n      ],\n      \"created\": \"1986-12-18T03:15:12.432Z\"\n    }\n  ],\n  \"errors\": [\n    {\n      \"message\": \"deserunt laboris ex\",\n      \"internalMessage\": \"aute qui anim\"\n    },\n    {\n      \"message\": \"aute cillum consequ\",\n      \"internalMessage\": \"nisi qui \"\n    }\n  ]\n}"
+						}
+					]
+				},
+				{
+					"name": "/Customers",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "text/plain"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Hasan Gök\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/Customers",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"Customers"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Success",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"name\": \"culpa consequat\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/Customers",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"Customers"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"success\": false,\n  \"code\": 58369414,\n  \"message\": \"pariatur voluptate magna cupidatat sunt\",\n  \"data\": {\n    \"id\": -31535918,\n    \"name\": \"aliqua laboris veniam Duis magna\",\n    \"addresses\": [\n      {\n        \"id\": -10232079,\n        \"name\": \"officia anim voluptate cupidatat\",\n        \"address\": \"ut\"\n      },\n      {\n        \"id\": -41012380,\n        \"name\": \"consequat velit sit dolor\",\n        \"address\": \"aliqua \"\n      }\n    ],\n    \"created\": \"1964-04-04T23:10:58.388Z\"\n  },\n  \"errors\": [\n    {\n      \"message\": \"voluptate Ut aliqua\",\n      \"internalMessage\": \"culpa aliqua consectetur\"\n    },\n    {\n      \"message\": \"mollit ad\",\n      \"internalMessage\": \"Ut dolor\"\n    }\n  ]\n}"
+						}
+					]
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "/",
+			"type": "string"
+		}
+	]
+}
